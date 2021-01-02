@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
-// eslint-disable-next-line import/no-anonymous-default-export
+
 export default function(ComponentToBeRendered) {
 
     class Authenticate extends Component {

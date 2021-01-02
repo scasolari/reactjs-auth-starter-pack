@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { logout } from '../utils/actions';
+import NavigationBar from "./_navigationbar";
 
 class Welcome extends Component {
     render() {
         return (
-            <div className="row">
-                <div className="col-md-4 col-md-offset-4">
-                    <h1>Welcome</h1>
+            <div>
+                <NavigationBar/>
+                <div className="row">
+                    <div className="col-md-4 col-md-offset-4">
+                        <h1>Welcome</h1>
+                    </div>
                 </div>
             </div>
         );
